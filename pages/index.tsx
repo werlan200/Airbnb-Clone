@@ -7,6 +7,7 @@ import { MediumCardType, SmallCardType } from "../typings";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
 import Footer from "../components/Footer";
+
 type HomeProps = {
   smallCardData: SmallCardType[];
   mediumCardData: MediumCardType[];
@@ -22,6 +23,7 @@ const Home: NextPage<HomeProps> = ({ smallCardData, mediumCardData }) => {
 
       <Header />
       <Banner />
+
       <main className="max-w-6xl mx-auto px-2">
         <section className="pt-5 pl-1.5 lg:pl-0">
           <h2 className="text-4xl font-semibold pb-4">Explore Nearby</h2>
