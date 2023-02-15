@@ -24,6 +24,4 @@ export interface SearchResult {
   star: number;
   price: string;
   total: string;
-  long: number;
-  lat: number;
 }

@@ -24,9 +24,9 @@ const selectionRange = {
 };
 
 const Header = ({ placeholder }: HeaderProps) => {
-  const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState<string>("");
   const [selectedDate, setSelectedDate] = useState(selectionRange);
-  const [peopleNumber, setPeopleNumber] = useState(1);
+  const [peopleNumber, setPeopleNumber] = useState<number>(1);
 
   const router = useRouter();
 

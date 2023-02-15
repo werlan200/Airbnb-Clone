@@ -10,8 +10,6 @@ const InfoCard = ({
   title,
   price,
   description,
-  lat,
-  long,
   total,
   star,
 }: SearchResult) => {
